@@ -1,0 +1,6 @@
+{
+  "name": "Auditoría Asíncrona",
+  "description": "Diagnóstico estratégico de autoridad para consultores y empresas B2B.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

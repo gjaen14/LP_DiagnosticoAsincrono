@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-display: "The Silver Editorial", serif;
+  --font-sans: "Poppins", sans-serif;
+
+  --color-obsidian: #130f08;
+  --color-bone: #f2f1eb;
+  --color-mocha: #4c3628;
+  --color-espresso: #1c1812;
+  --color-surface-container-low: #1f1b15;
+
+  --spacing-margin-desktop: 64px;
+  --spacing-margin-mobile: 20px;
+  --spacing-container-max: 1200px;
+  --spacing-section-gap: 128px;
+
+  --breakpoint-xl: 1200px;
+}
+
+@layer base {
+  body {
+    @apply bg-obsidian text-bone font-sans antialiased selection:bg-mocha selection:text-white overflow-x-hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-display;
+  }
+}
+
+.max-container {
+  @apply max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop w-full;
+}
+
+.mocha-divider {
+  @apply h-px bg-mocha/30 w-full;
+}
+
+.bento-card {
+  @apply bg-[#17130d] border border-mocha/20 p-12 transition-all duration-500 hover:border-mocha/60 hover:-translate-y-1;
+}
+
+.luxury-button {
+  @apply bg-mocha text-bone px-10 py-5 uppercase tracking-[0.2em] text-[10px] font-semibold transition-all hover:brightness-110 active:scale-95 text-center inline-block;
+}
+
+.luxury-input {
+  @apply w-full bg-transparent border-b border-bone/20 py-4 outline-none focus:border-mocha transition-colors placeholder:text-bone/20;
+}

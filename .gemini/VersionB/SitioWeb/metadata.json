@@ -1,0 +1,6 @@
+{
+  "name": "S&CO+ Boutique Digital",
+  "description": "Estudio boutique digital de alta costura técnica y diagnóstico de autoridad para CEOs.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
