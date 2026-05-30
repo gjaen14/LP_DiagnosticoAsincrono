@@ -9,7 +9,7 @@ import { ReactNode } from "react";
 
 export function Navbar() {
   return (
-    <nav className="fixed top-0 left-0 w-full z-50 bg-[#130f08]/80 backdrop-blur-md border-b border-mocha/20 h-20 transition-all">
+    <nav className="w-full z-50 bg-transparent h-20 transition-all">
       <div className="max-container h-full flex justify-between items-center">
         <div className="font-display text-2xl tracking-tight text-bone">
           Auditoría <span className="italic font-light">Asíncrona</span>
